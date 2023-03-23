@@ -1,0 +1,255 @@
+# project
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+}
+body{
+    
+    overflow: hidden;
+    
+
+}
+video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 191, 255, 0.564);
+    mix-blend-mode:overlay;
+
+}
+.entt{
+    height: 122px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.258);
+}
+.logo{
+    position:relative;
+    top: 5px;
+    left: 591px;
+}
+
+ 
+.box1{
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 733px;
+    border: 0.001px black double;
+    padding: 12px;
+    background:  linear-gradient(to left, #3f76c8af, #f2803eae); 
+    border-radius: 2000px;
+
+}
+.box2{
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 730px;
+    border: 0.001px black double;
+    padding: 12px;
+    background:  linear-gradient(to left, #3f76c8af, #f2803eae); 
+    border-radius: 2000px;
+
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    
+    
+
+}
+li a:hover{
+    font-size: 19px;
+    border: black 0.001px double;
+    padding: 4px;
+    border-radius: 2000px;
+    transition: 0.9s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+    
+
+.home:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: rgb(236, 41, 73);
+    box-shadow: 4px 4px 14px rgb(236, 41, 73),-4px -4px 14px rgb(236, 41, 73);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.9s;
+    
+}
+.hotels:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: orchid;
+    box-shadow: 4px 4px 14px orchid,-4px -4px 14px orchid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+    
+}
+.our:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: rgb(241, 241, 34);
+    box-shadow: 4px 4px 14px rgb(241, 241, 34), -4px -4px 14px rgb(241, 241, 34);
+    transition: 0.8s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.destinations:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: greenyellow;
+    box-shadow: 4px 4px 14px greenyellow,-4px -4px 14px greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+}
+.about:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: deeppink;
+    box-shadow: 4px 4px 14px deeppink,-4px -4px 14px deeppink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+}
+
+.sign:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: deepskyblue;
+    box-shadow: 4px 4px 14px deepskyblue,-4px -4px 14px deepskyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+    
+}
+.intr{
+    position: relative;
+    left: 35px;
+    top: 28px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(243, 60, 108);
+    text-shadow: 2px 2px 40px  rgb(243, 60, 108) ,-2px -2px 40px  rgb(243, 60, 108);
+    font-weight: bolder;
+}
+.discript{
+    position: relative;
+    left: 57px;
+    top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    border: #000000 1.8px solid;
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.514) ;
+    margin-right: 621px;
+    transition: 0.7s;
+    border-radius: 54px;
+}
+.discript:hover{
+    background:  linear-gradient(to bottom, rgba(255, 192, 203, 0.943), rgba(243, 60, 109, 0.950)); 
+    font-size: 16.5px;
+    margin-right:600px ;
+    transition: 0.7s;
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    border: none;
+    box-shadow: 0px 0px 50px rgba(243, 60, 109, 0.874);
+    cursor: none;
+}
+fieldset{
+    padding: 36px;
+    margin-right: 850px;
+    position: relative;
+    left: 820px;
+    bottom: 230px;
+    border-radius: 55px;
+    height: 420px;
+    width: 340px;
+    font-family:'Courier New', Courier, monospace;
+    color: deeppink;
+    font-size: 25px;
+    border: solid black 1.6px;
+   
+}
+h2{
+    background: -webkit-linear-gradient( #ff078f 38% , rgb(13, 53, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 31px;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    left: 35px;
+    bottom: 25px;
+    
+}
+.from{
+    padding: 9px;
+    height:15px;
+    width: 140px;
+    border: 1.5px solid  #ff078f;
+    border-radius: 19px;
+    outline: none;
+    position: relative;
+    left: 140px;
+    bottom: 10px;
+    
+}
+.to{
+        padding: 9px;
+        height: 15px;
+        width: 140px;
+        border: 1.5px solid  #ff078f;
+        border-radius: 19px;
+        outline: none;
+        position: relative;
+        left: 10px;
+        top: 10px;
+
+}
+input[ type="datetime-local"]{
+    padding: 9px;
+    height: 15px;
+    width: 300px;
+    border: 1.5px solid  #ff078f;
+    border-radius: 19px;
+    outline: none;
+
+}
+select{
+    padding: 10px;
+    height: 38px;
+    width: 70px;
+    border: 1.5px solid  #ff078f;
+    border-radius: 19px;
+    outline: none;
+    position: relative;
+    top: 187px;
+    left: 50px;
+}
+input[type="date"]{
+    padding: 3px;
+    height: 25px;
+    width: 100px;
+    border: 1.5px solid  #ff078f;
+    border-radius: 19px;
+
+
+}
