@@ -1,0 +1,223 @@
+# project
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background: linear-gradient(to bottom, #51054d , #0b8793 );
+    overflow: hidden;
+}
+.entt{
+    height: 122px;
+    width: 100%;
+    
+}
+.logo{
+    position:relative;
+    top: 2px;
+    left: 591px;
+}
+
+ 
+.box1{
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 733px;
+    border: 0.001px black double;
+    padding: 12px;
+    background:  linear-gradient(to right, #3f76c8cc, #f2803ecc); 
+    border-radius: 2000px;
+
+}
+.box2{
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 730px;
+    border: 0.001px black double;
+    padding: 12px;
+    background:  linear-gradient(to left, #3f76c8cc, #f2803ecc); 
+    border-radius: 2000px;
+
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    
+    
+
+}
+li a:hover{
+    font-size: 19px;
+    border: black 0.001px double;
+    padding: 4px;
+    border-radius: 2000px;
+    background-color:white;
+    transition: 0.5s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+    
+
+.home:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: rgb(236, 41, 73);
+    box-shadow: 4px 4px 14px rgb(236, 41, 73),-4px -4px 14px rgb(236, 41, 73);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.9s;
+    
+}
+.hotels:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: orchid;
+    box-shadow: 4px 4px 14px orchid,-4px -4px 14px orchid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+    
+}
+.our:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: rgb(241, 241, 34);
+    box-shadow: 4px 4px 14px rgb(241, 241, 34), -4px -4px 14px rgb(241, 241, 34);
+    transition: 0.8s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.destinations:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: greenyellow;
+    box-shadow: 4px 4px 14px greenyellow,-4px -4px 14px greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+}
+.about:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: deeppink;
+    box-shadow: 4px 4px 14px deeppink,-4px -4px 14px deeppink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+}
+.sigp:hover{
+    color:whitesmoke;
+    text-shadow:1px 1px 9px whitesmoke;
+    background-color: deepskyblue;
+    box-shadow: 4px 4px 14px deepskyblue,-4px -4px 14px deepskyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.8s;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    line-height: 3;;
+    border-radius:3000px;
+    margin:15px 459px;
+    padding: 3px;
+    width:335px;
+    height:449px;
+    background: linear-gradient(to right, #16222a, #3a6073);
+    transition:  0.5s;
+    box-shadow: 0px 0px 30px inset deepskyblue;
+    
+}
+.box3:hover{
+    transition: 0.7s;
+    width:355px;
+    height:469px;
+    margin:4px 446px;
+    border: solid 3px deepskyblue;
+    box-shadow: 0px 0px 50px  deepskyblue,0px 0px 10px inset deepskyblue;
+
+    
+    
+}
+
+h1{
+    color: black;
+    background: -webkit-linear-gradient( #8707ff 38% , deepskyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 30px white;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    font-family: 'Damion', cursive;
+   
+    
+}
+input[type="number"],[type="password"]{
+    padding: 9px;
+    height:19px;
+    width: 300px;
+    border: 1.5px solid  #8707ff;
+    border-radius: 19px;
+    outline: none;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Damion', cursive;
+   
+    
+}
+input[type="password"]:hover{
+      border: 1.5px whitesmoke;
+      box-shadow: 2px 2px 20px #8707ff inset,-2px -2px 20px deepskyblue inset ;
+      transition: 0.8s;
+      height: 25px;
+}
+input[type="number"]:hover{
+    border: 1.5px whitesmoke;
+    box-shadow: 2px 2px 20px #8707ff inset ,-2px -2px 20px deepskyblue inset;
+    transition: 0.8s;
+    height: 25px;
+}
+input[type="number"]:focus{
+    box-shadow: 5px 5px 15px  #8707ff,-5px -5px 15px  deepskyblue;
+}
+input[type="password"]:focus{
+    box-shadow: 5px 5px 15px  #8707ff,-5px -5px 15px  deepskyblue;
+}
+
+
+
+
+
+input[type="submit"]{
+    margin: 15px;
+    height: 52px;
+    width: 100px;
+    border-radius: 360px;
+    background:linear-gradient(to right, #8d8df2, #5288ec);
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 25px #91eae4, 5px 5px 25px #7f7fd5;
+    font-family: 'Damion', cursive;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+    margin-left:110px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+  }
+  input[type="submit"]:hover{
+    box-shadow: -5px -1px 10px rgb(7, 82, 220), 5px 1px 10px#91eae4, inset 5px 5px 10px#91eae4, inset -5px -5px 10px  rgb(7, 82, 220);
+    color: #ffffff;
+    transition: 0.8s;
+    background-size: 320%;
+    background-position: right center;
+      
+}
+
